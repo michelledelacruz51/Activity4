@@ -147,3 +147,6 @@ DELETE FROM appointments WHERE animalid = 3;
 UPDATE doctors
 SET dlastname = 'Reyes-Gonzales'
 WHERE dfirstname = 'Dr.Sofia';
+
+SELECT DISTINCT species
+FROM animals;
