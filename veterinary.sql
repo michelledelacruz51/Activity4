@@ -60,68 +60,68 @@ CREATE TABLE medicalrecords (
 
 INSERT INTO owners (ownerid, ofirstname, olastname, address, phone, email)
 VALUES
-(1, 'Sophia', 'Turner', '123 Maple Street, Quezon City', '09171234567', 'sophia.turner@example.com'),
-(2, 'Daniel', 'Rivera', '45 Oak Avenue, Manila', '09281234567', 'daniel.rivera@example.com'),
-(3, 'Hannah', 'Garcia', '78 Pine Road, Cebu City', '09184561234', 'hannah.garcia@example.com'),
-(4, 'Jacob', 'Santos', '99 Elm Street, Davao City', '09351239876', 'jacob.santos@example.com'),
-(5, 'Olivia', 'Ramirez', '56 Cherry Lane, Pasig City', '09193456782', 'olivia.ramirez@example.com'),
-(6, 'Elijah', 'Cruz', '12 Palm Drive, Makati', '09274567891', 'elijah.cruz@example.com'),
-(7, 'Mia', 'Reyes', '88 Jasmine Street, Laguna', '09451237890', 'mia.reyes@example.com'),
-(8, 'Lucas', 'Flores', '23 Coconut Blvd, Batangas', '09182345679', 'lucas.flores@example.com'),
-(9, 'Ava', 'Torres', '67 Mango Street, Baguio City', '09561234578', 'ava.torres@example.com'),
-(10, 'Ethan', 'Domingo', '34 Acacia Street, Iloilo City', '09179876543', 'ethan.domingo@example.com');
+    (1, 'Sophia', 'Turner', '123 Maple Street, Quezon City', '09171234567', 'sophia.turner@example.com'),
+    (2, 'Daniel', 'Rivera', '45 Oak Avenue, Manila', '09281234567', 'daniel.rivera@example.com'),
+    (3, 'Hannah', 'Garcia', '78 Pine Road, Cebu City', '09184561234', 'hannah.garcia@example.com'),
+    (4, 'Jacob', 'Santos', '99 Elm Street, Davao City', '09351239876', 'jacob.santos@example.com'),
+    (5, 'Olivia', 'Ramirez', '56 Cherry Lane, Pasig City', '09193456782', 'olivia.ramirez@example.com'),
+    (6, 'Elijah', 'Cruz', '12 Palm Drive, Makati', '09274567891', 'elijah.cruz@example.com'),
+    (7, 'Mia', 'Reyes', '88 Jasmine Street, Laguna', '09451237890', 'mia.reyes@example.com'),
+    (8, 'Lucas', 'Flores', '23 Coconut Blvd, Batangas', '09182345679', 'lucas.flores@example.com'),
+    (9, 'Ava', 'Torres', '67 Mango Street, Baguio City', '09561234578', 'ava.torres@example.com'),
+    (10, 'Ethan', 'Domingo', '34 Acacia Street, Iloilo City', '09179876543', 'ethan.domingo@example.com');
 
 INSERT INTO animals (animalid, name, species, breed, dateofbirth, gender, color, ownerid)
 VALUES
-(1, 'Buddy', 'Dog', 'Golden Retriever', '2020-05-14', 'Male', 'Golden', 1),
-(2, 'Mittens', 'Cat', 'Persian', '2021-03-22', 'Female', 'White', 2),
-(3, 'Chirpy', 'Bird', 'Parakeet', '2022-06-10', 'Male', 'Green', 3),
-(4, 'Shadow', 'Dog', 'German Shepherd', '2019-08-19', 'Male', 'Black and Tan', 4),
-(5, 'Luna', 'Cat', 'Siamese', '2021-11-05', 'Female', 'Cream', 5),
-(6, 'Nibbles', 'Rabbit', 'Netherland Dwarf', '2022-02-14', 'Male', 'Gray', 6),
-(7, 'Coco', 'Dog', 'Shih Tzu', '2018-09-09', 'Female', 'Brown and White', 7),
-(8, 'Goldie', 'Fish', 'Goldfish', '2023-01-01', 'Female', 'Orange', 8),
-(9, 'Spike', 'Dog', 'Bulldog', '2019-07-23', 'Male', 'White', 9),
-(10, 'Bella', 'Cat', 'Maine Coon', '2020-12-17', 'Female', 'Gray and White', 10);
+    (1, 'Buddy', 'Dog', 'Golden Retriever', '2020-05-14', 'Male', 'Golden', 1),
+    (2, 'Mittens', 'Cat', 'Persian', '2021-03-22', 'Female', 'White', 2),
+    (3, 'Simba', 'Cat', 'Tabby', '2021-04-15', 'Male', 'Orange', 3),
+    (4, 'Shadow', 'Dog', 'German Shepherd', '2019-08-19', 'Male', 'Black and Tan', 4),
+    (5, 'Luna', 'Cat', 'Siamese', '2021-11-05', 'Female', 'Cream', 5),
+    (6, 'Nibbles', 'Rabbit', 'Netherland Dwarf', '2022-02-14', 'Male', 'Gray', 6),
+    (7, 'Coco', 'Dog', 'Shih Tzu', '2018-09-09', 'Female', 'Brown and White', 7),
+    (8, 'Goldie', 'Fish', 'Goldfish', '2023-01-01', 'Female', 'Orange', 8),
+    (9, 'Spike', 'Dog', 'Bulldog', '2019-07-23', 'Male', 'White', 9),
+    (10, 'Bella', 'Cat', 'Maine Coon', '2020-12-17', 'Female', 'Gray and White', 10);
 
 INSERT INTO appointments (appointid, animalid, appointdate, reason)
 VALUES
-(1, 1, '2023-01-05', 'Regular Check-up'),
-(2, 2, '2023-01-10', 'Vaccination'),
-(3, 3, '2023-02-01', 'Injury Check'),
-(4, 4, '2023-02-15', 'Dental Cleaning'),
-(5, 5, '2023-03-05', 'Skin Problem'),
-(6, 6, '2023-03-20', 'Eye Infection'),
-(7, 7, '2023-04-10', 'Vaccination'),
-(8, 8, '2023-04-25', 'Surgery Consultation'),
-(9, 9, '2023-05-01', 'Allergy Treatment'),
-(10, 10, '2023-05-18', 'Health Check');
+    (1, 1, '2023-01-05', 'Regular Check-up'),
+    (2, 2, '2023-01-10', 'Vaccination'),
+    (3, 3, '2023-02-01', 'Injury Check'),
+    (4, 4, '2023-02-15', 'Dental Cleaning'),
+    (5, 5, '2023-03-05', 'Skin Problem'),
+    (6, 6, '2023-03-20', 'Eye Infection'),
+    (7, 7, '2023-04-10', 'Vaccination'),
+    (8, 8, '2023-04-25', 'Surgery Consultation'),
+    (9, 9, '2023-05-01', 'Allergy Treatment'),
+    (10, 10, '2023-05-18', 'Health Check');
 
 INSERT INTO doctors(doctorid, dfirstname, dlastname, speciality, phone, email)
 VALUES
-(1, 'Dr.Maria', 'Santos', 'General Veterinarian', '987-654-3210', 'maria@example.com'),
-(2, 'Dr.Antonio', 'Gonzales', 'Feline Specialist', '555-123-4567', 'antonio@example.com'),
-(3, 'Dr.Felipe', 'Luna', 'Orthopedic Specialist', '111-222-3333', 'felipe@example.com'),
-(4, 'Dr.Sofia', 'Reyes', 'Dermatology Specialist', '999-888-7777', 'sofia@xample.com'),
-(5, 'Dr.Luis', 'Torres', 'Surgery Specialist', '123-555-7777', 'luis@example.com'),
-(6, 'Dr.Carmen', 'Fernandez', 'Opthalmology Specialist', '333-222-1111', 'carmen@example.com'),
-(7, 'Dr. Miguel', 'Ramirez', 'Dental Specialist', '444-333-2222', 'miguel@example.com'),
-(8, 'Dr. Andrea', 'Cruz', 'Exotic Animal Specialist', '666-999-8888', 'andrea@example.com'),
-(9, 'Dr. Paolo', 'Navarro', 'Cardiology Specialist', '777-666-5555', 'paolo@example.com'),
-(10, 'Dr. Jessica', 'Villanueva', 'Emergency Care Specialist', '888-777-6666', 'jessica@example.com');
+    (1, 'Dr.Maria', 'Santos', 'General Veterinarian', '987-654-3210', 'maria@example.com'),
+    (2, 'Dr.Antonio', 'Gonzales', 'Feline Specialist', '555-123-4567', 'antonio@example.com'),
+    (3, 'Dr.Felipe', 'Luna', 'Orthopedic Specialist', '111-222-3333', 'felipe@example.com'),
+    (4, 'Dr.Sofia', 'Reyes', 'Dermatology Specialist', '999-888-7777', 'sofia@xample.com'),
+    (5, 'Dr.Luis', 'Torres', 'Surgery Specialist', '123-555-7777', 'luis@example.com'),
+    (6, 'Dr.Carmen', 'Fernandez', 'Opthalmology Specialist', '333-222-1111', 'carmen@example.com'),
+    (7, 'Dr. Miguel', 'Ramirez', 'Dental Specialist', '444-333-2222', 'miguel@example.com'),
+    (8, 'Dr. Andrea', 'Cruz', 'Exotic Animal Specialist', '666-999-8888', 'andrea@example.com'),
+    (9, 'Dr. Paolo', 'Navarro', 'Cardiology Specialist', '777-666-5555', 'paolo@example.com'),
+    (10, 'Dr. Jessica', 'Villanueva', 'Emergency Care Specialist', '888-777-6666', 'jessica@example.com');
 
 INSERT INTO invoices(invoiceid, appointid, totalamount, paymentdate)
 VALUES
-(1, 1, 50.00, '09:30:00'),
-(2, 2, 75.00, '14:15:00'),
-(3, 3, 100.00, '11:00:00'),
-(4, 4, 200.00, '13:45:00'),
-(5, 5, 80.00, '10:30:00'),
-(6, 6, 30.00, '15:00:00'),
-(7, 7, 75.00, '09:15:00'),
-(8, 8, 150.00, '16:30:00'),
-(9, 9, 60.00, '14:45:00'),
-(10, 10, 40.00, '11:30:00');
+    (1, 1, 50.00, '09:30:00'),
+    (2, 2, 75.00, '14:15:00'),
+    (3, 3, 100.00, '11:00:00'),
+    (4, 4, 200.00, '13:45:00'),
+    (5, 5, 80.00, '10:30:00'),
+    (6, 6, 30.00, '15:00:00'),
+    (7, 7, 75.00, '09:15:00'),
+    (8, 8, 150.00, '16:30:00'),
+    (9, 9, 60.00, '14:45:00'),
+    (10, 10, 40.00, '11:30:00');
 
 INSERT INTO medicalrecords (recordid, animalid, recorddate, doctorid, diagnosis, prescription, notes)
 VALUES 
@@ -139,6 +139,7 @@ VALUES
 ALTER TABLE owners
 ADD registereddate DATE;
 
-ALTER TABLE invoices 
-RENAME COLUMN paymentdate TO paymenttime;
- 
+
+
+
+DELETE FROM appointments WHERE animalid = 3;
