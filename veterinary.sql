@@ -71,18 +71,18 @@ VALUES
 (9, 'Ava', 'Torres', '67 Mango Street, Baguio City', '09561234578', 'ava.torres@example.com'),
 (10, 'Ethan', 'Domingo', '34 Acacia Street, Iloilo City', '09179876543', 'ethan.domingo@example.com');
 
-INSERT INTO animals (animal_id, name, species, breed, sex, age, owner_id, date_registered)
+INSERT INTO animals (animalid, name, species, breed, dateofbirth, gender, color, ownerid)
 VALUES
-(1, 'Buddy', 'Dog', 'Golden Retriever', 'Male', 3, 1, '2024-10-01'),
-(2, 'Mittens', 'Cat', 'Persian', 'Female', 2, 2, '2024-09-15'),
-(3, 'Chirpy', 'Bird', 'Parakeet', 'Male', 1, 3, '2024-11-01'),
-(4, 'Shadow', 'Dog', 'German Shepherd', 'Male', 4, 4, '2024-08-20'),
-(5, 'Luna', 'Cat', 'Siamese', 'Female', 1, 5, '2024-07-10'),
-(6, 'Nibbles', 'Rabbit', 'Netherland Dwarf', 'Male', 2, 6, '2024-10-05'),
-(7, 'Coco', 'Dog', 'Shih Tzu', 'Female', 5, 7, '2024-06-25'),
-(8, 'Goldie', 'Fish', 'Goldfish', 'Female', 1, 8, '2024-09-30'),
-(9, 'Spike', 'Dog', 'Bulldog', 'Male', 6, 9, '2024-08-12'),
-(10, 'Bella', 'Cat', 'Maine Coon', 'Female', 3, 10, '2024-07-19');
+(1, 'Buddy', 'Dog', 'Golden Retriever', '2020-05-14', 'Male', 'Golden', 1),
+(2, 'Mittens', 'Cat', 'Persian', '2021-03-22', 'Female', 'White', 2),
+(3, 'Chirpy', 'Bird', 'Parakeet', '2022-06-10', 'Male', 'Green', 3),
+(4, 'Shadow', 'Dog', 'German Shepherd', '2019-08-19', 'Male', 'Black and Tan', 4),
+(5, 'Luna', 'Cat', 'Siamese', '2021-11-05', 'Female', 'Cream', 5),
+(6, 'Nibbles', 'Rabbit', 'Netherland Dwarf', '2022-02-14', 'Male', 'Gray', 6),
+(7, 'Coco', 'Dog', 'Shih Tzu', '2018-09-09', 'Female', 'Brown and White', 7),
+(8, 'Goldie', 'Fish', 'Goldfish', '2023-01-01', 'Female', 'Orange', 8),
+(9, 'Spike', 'Dog', 'Bulldog', '2019-07-23', 'Male', 'White', 9),
+(10, 'Bella', 'Cat', 'Maine Coon', '2020-12-17', 'Female', 'Gray and White', 10);
 
 INSERT INTO appointments (appointid, animalid, appointdate, reason)
 VALUES
