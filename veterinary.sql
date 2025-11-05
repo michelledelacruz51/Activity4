@@ -60,7 +60,7 @@ CREATE TABLE medicalrecords (
 
 INSERT INTO owners (ownerid, ofirstname, olastname, address, phone, email)
 VALUES
-    (1, 'Sophia', 'Turner', '123 Maple Street, Quezon City', '09171234567', 'sophia.turner@example.com'),
+    (1, 'Maria', 'Turner', '123 Maple Street, Quezon City', '09171234567', 'maria.turner@example.com'),
     (2, 'Daniel', 'Rivera', '45 Oak Avenue, Manila', '09281234567', 'daniel.rivera@example.com'),
     (3, 'Hannah', 'Garcia', '78 Pine Road, Cebu City', '09184561234', 'hannah.garcia@example.com'),
     (4, 'Jacob', 'Santos', '99 Elm Street, Davao City', '09351239876', 'jacob.santos@example.com'),
@@ -95,7 +95,7 @@ VALUES
     (7, 7, '2023-04-10', 'Vaccination'),
     (8, 8, '2023-04-25', 'Surgery Consultation'),
     (9, 9, '2023-05-01', 'Allergy Treatment'),
-    (10, 10, '2023-05-18', 'Health Check');
+    (10, 1, '2023-06-20', 'Follow-up Check');
 
 INSERT INTO doctors(doctorid, dfirstname, dlastname, speciality, phone, email)
 VALUES
@@ -153,3 +153,9 @@ FROM animals;
 
 SELECT SUM(totalamount) AS total_sales
 FROM invoices;
+
+SELECT COUNT(*) AS total_appointments
+FROM appointments a
+JOIN animals an ON a.animalid = an.animalid
+JOIN owners o ON an.ownerid = o.ownerid
+WHERE o.ofirstname = 'Maria';
