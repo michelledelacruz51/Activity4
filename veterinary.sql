@@ -110,8 +110,6 @@ VALUES
 (9, 'Dr. Paolo', 'Navarro', 'Cardiology Specialist', '777-666-5555', 'paolo@example.com'),
 (10, 'Dr. Jessica', 'Villanueva', 'Emergency Care Specialist', '888-777-6666', 'jessica@example.com');
 
- 
-
 INSERT INTO medicalrecords (recordid, animalid, recorddate, doctorid, diagnosis, prescription, notes)
 VALUES 
     (1, 1, '2023-01-05 00:00:00', 1, 'Health check', 'N/A', 'Regular checkup, no issue detected'),
@@ -124,3 +122,17 @@ VALUES
     (8, 8, '2023-04-18 00:00:00', 5, 'Spaying', 'N/A', 'Successfully performed spaying surgery'),
     (9, 9, '2023-05-02 00:00:00', 4, 'Allergic reaction', 'Antihistamines', 'Allergic reaction due to food prescribed antihistamine'),
     (10, 10, '2023-05-20 00:00:00', 6, 'Conjunctivitis', 'Eye drops', 'Prescribed eye drops for conjunctivitis');
+
+INSERT INTO invoices(invoiceid, appointid, totalamount, paymentdate)
+VALUES
+(1, 1, 50.00, '09:30:00'),
+(2, 2, 75.00, '14:15:00'),
+(3, 3, 100.00, '11:00:00'),
+(4, 4, 200.00, '13:45:00'),
+(5, 5, 80.00, '10:30:00'),
+(6, 6, 30.00, '15:00:00'),
+(7, 7, 75.00, '09:15:00'),
+(8, 8, 150.00, '16:30:00'),
+(9, 9, 60.00, '14:45:00'),
+(10, 10, 40.00, '11:30:00');
+
