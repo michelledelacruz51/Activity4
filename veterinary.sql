@@ -58,18 +58,18 @@ CREATE TABLE medicalrecords (
     FOREIGN KEY (doctorid) REFERENCES doctors(doctorid)
 );
 
-INSERT INTO owners (owner_id, first_name, last_name, address, contact_number)
+INSERT INTO owners (ownerid, ofirstname, olastname, address, phone, email)
 VALUES
-(1, 'Maria', 'Reyes', 'Lipa City, Batangas', '09171234567'),
-(2, 'John', 'Cruz', 'Tanauan City, Batangas', '09281234568'),
-(3, 'Andrea', 'Villanueva', 'Sto. Tomas, Batangas', '09391234569'),
-(4, 'Paolo', 'Santos', 'Batangas City, Batangas', '09451234570'),
-(5, 'Angela', 'Dela Cruz', 'Malvar, Batangas', '09561234571'),
-(6, 'Michael', 'Ramos', 'Rosario, Batangas', '09671234572'),
-(7, 'Jessa', 'Lopez', 'San Jose, Batangas', '09781234573'),
-(8, 'Patrick', 'Garcia', 'Cuenca, Batangas', '09891234574'),
-(9, 'Sofia', 'Torres', 'Padre Garcia, Batangas', '09901234575'),
-(10, 'Kevin', 'Mendoza', 'Ibaan, Batangas', '09181234576');
+(1, 'Sophia', 'Turner', '123 Maple Street, Quezon City', '09171234567', 'sophia.turner@example.com'),
+(2, 'Daniel', 'Rivera', '45 Oak Avenue, Manila', '09281234567', 'daniel.rivera@example.com'),
+(3, 'Hannah', 'Garcia', '78 Pine Road, Cebu City', '09184561234', 'hannah.garcia@example.com'),
+(4, 'Jacob', 'Santos', '99 Elm Street, Davao City', '09351239876', 'jacob.santos@example.com'),
+(5, 'Olivia', 'Ramirez', '56 Cherry Lane, Pasig City', '09193456782', 'olivia.ramirez@example.com'),
+(6, 'Elijah', 'Cruz', '12 Palm Drive, Makati', '09274567891', 'elijah.cruz@example.com'),
+(7, 'Mia', 'Reyes', '88 Jasmine Street, Laguna', '09451237890', 'mia.reyes@example.com'),
+(8, 'Lucas', 'Flores', '23 Coconut Blvd, Batangas', '09182345679', 'lucas.flores@example.com'),
+(9, 'Ava', 'Torres', '67 Mango Street, Baguio City', '09561234578', 'ava.torres@example.com'),
+(10, 'Ethan', 'Domingo', '34 Acacia Street, Iloilo City', '09179876543', 'ethan.domingo@example.com');
 
 INSERT INTO animals (animal_id, name, species, breed, sex, age, owner_id, date_registered)
 VALUES
