@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-
+CREATE DATABASE veterinary;
 
 CREATE TABLE owners(
     ownerid INT PRIMARY KEY,
@@ -9,6 +8,5 @@ CREATE TABLE owners(
     phone VARCHAR(15),
     email VARCHAR(100)
 );
-=======
-CREATE DATABASE veterinary;
->>>>>>> bfc702b0e7971d7cdf292c13ffbacecfcd7f6a43
+
+
