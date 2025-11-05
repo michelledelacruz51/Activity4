@@ -104,7 +104,11 @@ VALUES
 (3, 'Dr.Felipe', 'Luna', 'Orthopedic Specialist', '111-222-3333', 'felipe@example.com'),
 (4, 'Dr.Sofia', 'Reyes', 'Dermatology Specialist', '999-888-7777', 'sofia@xample.com'),
 (5, 'Dr.Luis', 'Torres', 'Surgery Specialist', '123-555-7777', 'luis@example.com'),
-(6, 'Dr.Carmen', 'Fernandez', 'Opthalmology Specialist', '333-222-1111', 'carmen@example.com');
+(6, 'Dr.Carmen', 'Fernandez', 'Opthalmology Specialist', '333-222-1111', 'carmen@example.com'),
+(7, 'Dr. Miguel', 'Ramirez', 'Dental Specialist', '444-333-2222', 'miguel@example.com'),
+(8, 'Dr. Andrea', 'Cruz', 'Exotic Animal Specialist', '666-999-8888', 'andrea@example.com'),
+(9, 'Dr. Paolo', 'Navarro', 'Cardiology Specialist', '777-666-5555', 'paolo@example.com'),
+(10, 'Dr. Jessica', 'Villanueva', 'Emergency Care Specialist', '888-777-6666', 'jessica@example.com');
 
  
 
